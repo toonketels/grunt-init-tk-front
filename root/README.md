@@ -5,6 +5,7 @@
 In project root do:
 
     npm install
+    grunt build
     grunt
 
 This will run a [server on port 8080](http://localhost:8080),
@@ -17,10 +18,13 @@ any changes to jade/sass/js to _livereload_ the server.
 Need to have _nodejs_, _npm_ and _grunt-cli_ installed.
 
 
-## Other useful commands
+## Useful commands
 
     // Compile all jade/sass to html/css, optimizes js files
     grunt build
+
+    // Spin up server
+    grunt
 
 
 ## Tips
